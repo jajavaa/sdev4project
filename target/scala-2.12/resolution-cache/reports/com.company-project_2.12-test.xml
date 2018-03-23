@@ -7,15 +7,15 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20180310192250"/>
+		date="20180323123526"/>
 	<dependencies>
 		<module organisation="org.im4java" name="im4java">
-			<revision name="1.4.0" status="release" pubdate="20130222132409" resolver="public" artresolver="public" homepage="http://sourceforge.net/projects/im4java/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+			<revision name="1.4.0" status="release" pubdate="20130222132409" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/im4java/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
 				<license name="GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
-				<metadata-artifact status="successful" details="" size="1601" time="97" location="/home/konrad/.ivy2/cache/org.im4java/im4java/ivy-1.4.0.xml" searched="true" original-local-location="/home/konrad/.ivy2/cache/org.im4java/im4java/ivy-1.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/im4java/im4java/1.4.0/im4java-1.4.0.pom"/>
+				<metadata-artifact status="no" details="" size="2834" time="0" location="/home/konrad/.ivy2/cache/org.im4java/im4java/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/im4java/im4java/1.4.0/im4java-1.4.0.pom"/>
 				<caller organisation="com.company" name="project_2.12" conf="test, compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="im4java" type="jar" ext="jar" status="successful" details="" size="161251" time="333" location="/home/konrad/.ivy2/cache/org.im4java/im4java/jars/im4java-1.4.0.jar">
+					<artifact name="im4java" type="jar" ext="jar" status="no" details="" size="161251" time="0" location="/home/konrad/.ivy2/cache/org.im4java/im4java/jars/im4java-1.4.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/im4java/im4java/1.4.0/im4java-1.4.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -1503,7 +1503,7 @@
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="2.6.11"/>
 				<artifacts>
 					<artifact name="commons-codec" type="jar" ext="jar" extra-classifier="" status="no" details="" size="284184" time="0" location="/home/konrad/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
-						<origin-location is-local="false" location="UNKNOWN"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

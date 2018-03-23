@@ -1,5 +1,2 @@
-[error] /home/konrad/Documents/sdev4/project/app/views/employee.scala.html:46:98: not enough arguments for method delete: (id: String, empl: String)play.api.mvc.Call.
-[error] Unspecified value parameter empl.
-[error]                                 <a class="btn btn-primary" href="@routes.AddressController.delete(employee.getAddress.getId)">Delete</a>
-[error]                                                                                                  ^
-[error] one error found
+[0m[[0m[0minfo[0m] [0m[0m/home/konrad/code/sdev4project/app/controllers/EmployeeController.java: /home/konrad/code/sdev4project/app/controllers/EmployeeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/konrad/code/sdev4project/app/controllers/EmployeeController.java: Recompile with -Xlint:unchecked for details.[0m

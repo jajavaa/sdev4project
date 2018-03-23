@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/konrad/Documents/sdev4/project/conf/routes
-// @DATE:Sun Mar 11 14:19:22 GMT 2018
+// @SOURCE:/home/konrad/code/sdev4project/conf/routes
+// @DATE:Fri Mar 23 12:37:19 GMT 2018
 
 
 package router {
